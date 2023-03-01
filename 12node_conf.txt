@@ -1,0 +1,75 @@
+    1  2    6 # WAS NYC
+    1  4   55 # WAS LAX
+    1  5   17 # WAS CHI
+    1  6   44 # WAS DFW
+    1  8   13 # WAS ATL
+    1  9    4 # WAS JHU
+    1 10   88 # WAS FRA
+    1 11   75 # WAS LON
+
+    2  1    6 # NYC WAS
+    2  3   70 # NYC SJC
+    2  5   19 # NYC CHI
+    2  9   10 # NYC JHU
+    2 10   88 # NYC FRA
+    2 11   73 # NYC LON
+
+    3  2   70 # SJC NYC
+    3  4   10 # SJC LAX
+    3  6   40 # SJC DFW
+    3  7   26 # SJC DEN
+    3 12  163 # SJC HKG
+
+    4  1   55 # LAX WAS
+    4  3   10 # LAX SJC
+    4  6   39 # LAX DFW
+    4  7   35 # LAX DEN
+    4 12  165 # LAX HKG
+
+    5  1   17 # CHI WAS
+    5  2   19 # CHI NYC
+    5  6   30 # CHI DFW
+    5  7   25 # CHI DEN
+    5  8   23 # CHI ATL
+    5 10  103 # CHI FRA
+    5 11   90 # CHI LON
+
+    6  1   44 # DFW WAS
+    6  3   40 # DFW SJC
+    6  4   39 # DFW LAX
+    6  5   30 # DFW CHI
+    6  7   15 # DFW DEN
+    6  8   20 # DFW ATL
+    6 12  189 # DFW HKG
+
+    7  3   26 # DEN SJC
+    7  4   35 # DEN LAX
+    7  5   25 # DEN CHI
+    7  6   15 # DEN DFW
+    7  8   34 # DEN ATL
+    7 12  195 # DEN HKG
+
+    8  1   13 # ATL WAS
+    8  5   23 # ATL CHI
+    8  6   20 # ATL DFW
+    8  7   34 # ATL DEN
+    8  9   18 # ATL JHU
+
+    9  1    4 # JHU WAS
+    9  2   10 # JHU NYC
+    9  8   18 # JHU ATL
+
+   10  1   88 # FRA WAS
+   10  2   88 # FRA NYC
+   10  5  103 # FRA CHI
+   10 11   16 # FRA LON
+
+   11  1   75 # LON WAS
+   11  2   73 # LON NYC
+   11  5   90 # LON CHI
+   11 10   16 # LON FRA
+
+   12  3  163 # HKG SJC
+   12  4  165 # HKG LAX
+   12  6  189 # HKG DFW
+   12  7  195 # HKG DEN

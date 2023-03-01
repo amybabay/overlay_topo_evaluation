@@ -1,0 +1,112 @@
+--ignore nodes:  [] --
+
+80 pairs of nodes have 3 disjoint path
+28 pairs of nodes have 4 disjoint path
+20 pairs of nodes have 5 disjoint path
+4 pairs of nodes have 6 disjoint path
+
+the first min weight sum:
+min:-25%              weight: -5.5              path: [1, 8, 6]
+max:30%              weight: 3.5              path: [8, 1, 5]
+mean:1%
+
+the 3ed min weight sum:
+min:2%              weight: 0.5              path: [3, 6, 8]
+max:919%              weight: 73.5              path: [11, 1, 10]
+mean:79%
+
+the max weight sum:
+min:2%              weight: 2.0              path: [2, 8, 4, 12]
+max:3725%              weight: 74.5              path: [9, 11, 1]
+mean:281%
+total edges is 31.0
+
+Degrees   total disjoint path   total disjoint path/Degrees: 
+node 1 has 6            41            6.83  
+node 2 has 7            43            6.14  
+node 3 has 5            40            8.0  
+node 4 has 5            40            8.0  
+node 5 has 6            45            7.5  
+node 6 has 7            43            6.14  
+node 7 has 5            39            7.8  
+node 8 has 6            45            7.5  
+node 9 has 5            39            7.8  
+node 10 has 3            33            11.0  
+node 11 has 4            35            8.75  
+node 12 has 3            33            11.0  
+3.111904761904762
+
+
+
+
+
+
+########################## ignore node 9 ##############################
+80 pairs of nodes have 3 disjoint path
+18 pairs of nodes have 4 disjoint path
+12 pairs of nodes have 5 disjoint path
+
+the first min weight sum:
+min:-25%              weight: -5.5              path: [1, 8, 6]
+max:26%              weight: 31.0              path: [12, 4, 8, 11]
+mean:1%
+
+the 3ed min weight sum:
+min:2%              weight: 0.5              path: [3, 6, 8]
+max:919%              weight: 73.5              path: [11, 1, 10]
+mean:79%
+
+the max weight sum:
+min:2%              weight: 0.5              path: [3, 6, 8]
+max:3180%              weight: 159.0              path: [4, 12, 3]
+mean:235%
+total edges is 27.0
+
+Degrees   total disjoint path   total disjoint path/Degrees: 
+node 1 has 5            34            6.8  
+node 2 has 6            36            6.0  
+node 3 has 4            32            8.0  
+node 4 has 5            34            6.8  
+node 5 has 5            34            6.8  
+node 6 has 7            38            5.43  
+node 7 has 5            34            6.8  
+node 8 has 7            38            5.43  
+node 10 has 3            30            10.0  
+node 11 has 4            32            8.0  
+node 12 has 3            30            10.0  
+2.9650793650793648
+
+
+
+
+
+--ignore nodes:  [] --
+
+132 pairs of nodes have 3 disjoint path
+
+the first min weight sum:
+min:-25%              weight: -5.5              path: [1, 8, 6]
+max:30%              weight: 3.5              path: [8, 1, 5]
+mean:1%
+
+the 3ed min weight sum:
+min:2%               weight: 0.5              path: [3, 6, 8]
+max:919%              weight: 73.5              path: [11, 1, 10]
+mean:91%
+total edges is 31.0
+
+
+--ignore nodes:  [9] --
+
+110 pairs of nodes have 3 disjoint path
+
+the first min weight sum:
+min:-25%              weight: -5.5              path: [1, 8, 6]
+max:26%               weight: 31.0              path: [12, 4, 8, 11]
+mean:1%
+
+the 3ed min weight sum:
+min:2%                weight: 0.5              path: [3, 6, 8]
+max:919%              weight: 73.5              path: [11, 1, 10]
+mean:87%
+total edges is 27.0
