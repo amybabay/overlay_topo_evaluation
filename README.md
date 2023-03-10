@@ -33,7 +33,7 @@ Data summary for MAX weight disjoint path: Min : 2% , Average : 152%, Max : 2150
 
 Data summary for MAX 6th weight disjoint path: Min : 4% , Average : 514%, Max : 3180%
 
-- the summary of MIN weight is like in the situation of no fault, the eveluation of min, average, and max of all the min weight(shortest) path of each node to node.
+- the summary of MIN weight is like in the situation of no fault, the evaluation of min, average, and max of all the min weight(shortest) path of each node to node.
 
 - the "MAX weight" indecate 3ed best path or 3ed lowest weight path. 
 
