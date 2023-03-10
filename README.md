@@ -2,7 +2,7 @@
 
 ## Files :
 
-run python spanner.py 12node_edges.txt 12node_pos.txt initialKValue iterations mode ignoreNodes(optional)
+1. run python   spanner.py   12node_edges.txt   12node_pos.txt   initialKValue   iterations   mode   ignoreNodes(optional)
 
 - To generate overlay network topologys output file such as: dijk1.712node_edges.txt
 
@@ -10,7 +10,7 @@ run python spanner.py 12node_edges.txt 12node_pos.txt initialKValue iterations m
 
 
 
-run python diff.py 12node_edges.txt 12node_pos.txt topologyOutPut.txt ignoreNodes(optional) 
+2. run python   diff.py   12node_edges.txt   12node_pos.txt   topologyOutPut.txt   ignoreNodes(optional) 
 
 - To print evaluation based on flexibility, Fault-tolerance, cost, and latency of the giving topology( used '-> topologyName.txt' to store the info, such as bfs.txt).  
 
@@ -24,7 +24,7 @@ run python diff.py 12node_edges.txt 12node_pos.txt topologyOutPut.txt ignoreNode
 
 
 
-the summary.txt included a summary of evaluations of conf topology, bfs topology, dijk topology, and max flow topology.
+3. the summary.txt included a summary of evaluations of conf topology, bfs topology, dijk topology, and max flow topology.
 
 
 
