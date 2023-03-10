@@ -8,7 +8,7 @@
    ```
    - To generate overlay network topologys output file such as: dijk1.712node_edges.txt
 
-   - the spanner.py file is edited based on https://github.com/kjt32/SpannerGenerator/spanner.py
+   - the spanner.py file is edited based on https://github.com/kjt32/SpannerGenerator/blob/main/spanner.py
 
 
 
