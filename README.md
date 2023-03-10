@@ -4,7 +4,7 @@
 
 1. get topology
 ```
-python   spanner.py   12node_edges.txt   12node_pos.txt   initialKValue   iterations   mode   ignoreNodes(optional)
+python spanner.py 12node_edges.txt 12node_pos.txt initialKValue iterations mode ignoreNodes(optional)
 ```
 - To generate overlay network topologys output file such as: dijk1.712node_edges.txt
 
@@ -14,16 +14,16 @@ python   spanner.py   12node_edges.txt   12node_pos.txt   initialKValue   iterat
 
 2. evaluate topology
 ```
-python   diff.py   12node_edges.txt   12node_pos.txt   topologyOutPut.txt   ignoreNodes(optional) 
+python diff.py 12node_edges.txt 12node_pos.txt topologyOutPut.txt ignoreNodes(optional) 
 ```
 - To print evaluation based on flexibility, Fault-tolerance, cost, and latency of the giving topology( used '-> topologyName.txt' to store the info, such as bfs.txt).  
 
 - To see more details of each path, enable :
+   ```
+   #print(path_sum)           <-- def add_path
 
-    -- #print(path_sum)                <-- def add_path
-
-    -- #print(E[(i[j],i[j+1])])        <-- def add_cal_weight
-
+   #print(E[(i[j],i[j+1])])   <-- def add_cal_weight
+   ```
     should work
 
 
