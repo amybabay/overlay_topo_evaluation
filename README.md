@@ -2,27 +2,29 @@
 
 ## Files :
 
-- run python spanner.py 12node_edges.txt 12node_pos.txt initialKValue iterations mode ignoreNodes(optional)
+run python spanner.py 12node_edges.txt 12node_pos.txt initialKValue iterations mode ignoreNodes(optional)
 
-To generate overlay network topologys output file such as: dijk1.712node_edges.txt
+- To generate overlay network topologys output file such as: dijk1.712node_edges.txt
 
-the spanner.py file is edited based on https://github.com/kjt32/SpannerGenerator/spanner.py
-
-
-- run python diff.py 12node_edges.txt 12node_pos.txt topologyOutPut.txt ignoreNodes(optional) 
-
-To print evaluation based on flexibility, Fault-tolerance, cost, and latency of the giving topology( used '-> topologyName.txt' to store the info, such as bfs.txt).  
-
-To see more details of each path, enable :
-
-#print(path_sum)                <-- def add_path
-
-#print(E[(i[j],i[j+1])])        <-- def add_cal_weight
-
-should work
+- the spanner.py file is edited based on https://github.com/kjt32/SpannerGenerator/spanner.py
 
 
-- the summary.txt included a summary of evaluations of conf topology, bfs topology, dijk topology, and max flow topology.
+
+run python diff.py 12node_edges.txt 12node_pos.txt topologyOutPut.txt ignoreNodes(optional) 
+
+- To print evaluation based on flexibility, Fault-tolerance, cost, and latency of the giving topology( used '-> topologyName.txt' to store the info, such as bfs.txt).  
+
+- To see more details of each path, enable :
+
+    -- #print(path_sum)                <-- def add_path
+
+    -- #print(E[(i[j],i[j+1])])        <-- def add_cal_weight
+
+    should work
+
+
+
+the summary.txt included a summary of evaluations of conf topology, bfs topology, dijk topology, and max flow topology.
 
 
 
