@@ -28,7 +28,7 @@
 
 
 
-## instructions of summary.txt:
+## Instructions of summary.txt:
 Data summary for MIN weight disjoint path: Min : -25% , Average : 2%, Max : 59%
 
 Data summary for MAX weight disjoint path: Min : 2% , Average : 152%, Max : 2150%
